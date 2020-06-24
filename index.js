@@ -11,3 +11,14 @@ var nowServing = (line) => {
 return 'There is nobody waiting to be served!'
 }
 }
+var currentLine = (katzDeliLine) =>{
+  var current = 'The line is currently:'
+  if (line.length !==0){
+    for(let i=0;i<katzDeliLine.length;i++){
+      current = `${current} ${i+1}. ${katzDeliLine[i]},`
+    }
+  } else {
+    return 'The line is currently empty.'
+  }
+  return current
+}
