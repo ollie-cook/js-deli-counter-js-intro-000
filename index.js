@@ -19,7 +19,7 @@ var currentLine = (katzDeliLine) =>{
       current = `${current} ${i+1}. ${katzDeliLine[i]},`
     }else{
       current = `${current} ${i+1}. ${katzDeliLine[i]}`
-      
+
     }}
   } else {
     return 'The line is currently empty.'
