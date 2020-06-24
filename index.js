@@ -4,11 +4,11 @@ var takeANumber =(line,newName) => {
 }
 
 var nowServing = (line) => {
- if (line.length !== 0) { 
+ if (line.length !== 0) {
  var now = line.shift();
- line.shift() 
+ line.shift()
  return now
-} else { 
+} else {
 return 'There is nobody waiting to be served!'
 }
 }
