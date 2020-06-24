@@ -7,7 +7,7 @@ var nowServing = (line) => {
  if (line.length !== 0) {
  var now = line.shift();
  line.shift()
- return now
+ return `Currently serving ${now}`
 } else {
 return 'There is nobody waiting to be served!'
 }
